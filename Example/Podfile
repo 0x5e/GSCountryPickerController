@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'GSCountryPickerController_Example', :exclusive => true do
+  pod 'GSCountryPickerController', :path => '../'
+end
+
+target 'GSCountryPickerController_Tests', :exclusive => true do
+  pod 'GSCountryPickerController', :path => '../'
+
+  
+end
