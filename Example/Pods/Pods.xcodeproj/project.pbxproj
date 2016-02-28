@@ -1,0 +1,804 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0128F4671CB5A2AC8871B2F49AB39A70 /* GSCountryPickerController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED31A961823BF77A9CB38B2FE2073600 /* GSCountryPickerController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14180B36FC8A279A6116A179382C3B00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		2C0B0D1A5F4DE9CF54180DFC4E3D9606 /* GSCountryPickerController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB372B1669CBB34CBB9A5FAD2FFB762 /* GSCountryPickerController-dummy.m */; };
+		3072E0ACF5EABB1F443A417BD30E390C /* GSCountryPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03163A76C6FD9402FA5AC4559D818280 /* GSCountryPickerController.m */; };
+		4DDBA6E24B1F5A302E84964D062D547F /* GSCountryPickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5059D3E63795F824E60912776452553E /* GSCountryPickerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F4ED3BD2B0F4615D97928A480ECE49A /* GSCountryPickerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FA925E14047D573856B9E023B39BE415 /* GSCountryPickerController.bundle */; };
+		88AEFDE8A78F61D6646EF9D276463B17 /* GSCountryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB94428ACF64516D8D3A6BD4735B663 /* GSCountryModel.m */; };
+		8E07B436B514C46617CABD4D7316F5C1 /* Pods-GSCountryPickerController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 412D52F55E6B2BC0132EA2328C454780 /* Pods-GSCountryPickerController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3F2D51EB5FC8796EC1D5007C33B28FF /* Pods-GSCountryPickerController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B78EFD1930739240761F8B4067A2CA /* Pods-GSCountryPickerController_Tests-dummy.m */; };
+		B46F3DC0327CD3EB635EEC0A2DEEA871 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		BFCA2DCF63DE2B5AB2BA7AC18D118FBA /* Pods-GSCountryPickerController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 209DA79FDB41D165FD19A2A0124FA4F2 /* Pods-GSCountryPickerController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C07FB38E149F33F7151991FF79FA6D32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		CC146CB241E4A260E883C6A0BCE228CA /* GSCountryTableController.h in Headers */ = {isa = PBXBuildFile; fileRef = 98CB5B0BB2640F559E6C5A87BC905D5D /* GSCountryTableController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF118E3B5DBACF954AB1DB084A68228E /* GSCountryModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 948E1665FCE3C689C765D1DF8A072E3A /* GSCountryModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E221DD6C7B08D3F306C32FE31B6F77CD /* Pods-GSCountryPickerController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D570C6F3F5458A99404E74DAFEDE3491 /* Pods-GSCountryPickerController_Example-dummy.m */; };
+		E4ABEA18D76F93CF1CE726754FC78EA9 /* GSCountryTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD88A738EE26E9A90E775960E1531D3 /* GSCountryTableController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88DE5F4AEFEEF9A9E7B51F49C1A1685D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09978E2B7CAA5BE082A11F2E45B013D8;
+			remoteInfo = GSCountryPickerController;
+		};
+		CA5413CB12D389F64884F937A0D276A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09978E2B7CAA5BE082A11F2E45B013D8;
+			remoteInfo = GSCountryPickerController;
+		};
+		E656E0164EDA3FCB604FEA45645A10D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B05E3041C487A276A1D8E2DDF2A1E427;
+			remoteInfo = "GSCountryPickerController-GSCountryPickerController";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03163A76C6FD9402FA5AC4559D818280 /* GSCountryPickerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GSCountryPickerController.m; sourceTree = "<group>"; };
+		1AE56D89E57000625CCE1A5D33504AA3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C1D3BB34FBA971B4654216818100055 /* Pods-GSCountryPickerController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GSCountryPickerController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		209DA79FDB41D165FD19A2A0124FA4F2 /* Pods-GSCountryPickerController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GSCountryPickerController_Example-umbrella.h"; sourceTree = "<group>"; };
+		29C27F2918E242BE7F0EC4AC26D814FC /* Pods_GSCountryPickerController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GSCountryPickerController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		412D52F55E6B2BC0132EA2328C454780 /* Pods-GSCountryPickerController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GSCountryPickerController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4A2E648E8DACA8C0FBA5732BA3ADC84E /* Pods-GSCountryPickerController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GSCountryPickerController_Example.modulemap"; sourceTree = "<group>"; };
+		5059D3E63795F824E60912776452553E /* GSCountryPickerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSCountryPickerController.h; sourceTree = "<group>"; };
+		52EEC98FB60EBD8BFC6CE6535841028B /* Pods-GSCountryPickerController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GSCountryPickerController_Tests.modulemap"; sourceTree = "<group>"; };
+		5610A8E0353E3570FC6A1F70E5475840 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59F50F790C88BE9549E6706F4801AC16 /* Pods-GSCountryPickerController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GSCountryPickerController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5B092254FA5894127F7B25A4A42952BC /* Pods-GSCountryPickerController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GSCountryPickerController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5B7B272178931C5DE9CF195ADF1A52EB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CB6396632D23BC21F5E4A9717D4C592 /* Pods-GSCountryPickerController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GSCountryPickerController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7E26837A684AD2D51A5C22931C40AF8F /* Pods_GSCountryPickerController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GSCountryPickerController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		948E1665FCE3C689C765D1DF8A072E3A /* GSCountryModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSCountryModel.h; sourceTree = "<group>"; };
+		9697D57A5FF244EF0AA79FCE4682BA58 /* Pods-GSCountryPickerController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GSCountryPickerController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		98CB5B0BB2640F559E6C5A87BC905D5D /* GSCountryTableController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GSCountryTableController.h; sourceTree = "<group>"; };
+		A0A57E7E7BB7817CF607F04AE7D7F1BA /* GSCountryPickerController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GSCountryPickerController.xcconfig; sourceTree = "<group>"; };
+		AFE3A6EA394235A5CFB4C538657ACD9D /* GSCountryPickerController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GSCountryPickerController-prefix.pch"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BBB94428ACF64516D8D3A6BD4735B663 /* GSCountryModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GSCountryModel.m; sourceTree = "<group>"; };
+		C111E3263A5E516A9567B11363B59309 /* Pods-GSCountryPickerController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GSCountryPickerController_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		CFB372B1669CBB34CBB9A5FAD2FFB762 /* GSCountryPickerController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GSCountryPickerController-dummy.m"; sourceTree = "<group>"; };
+		D44677889354D9141929EDB18BFB467B /* GSCountryPickerController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GSCountryPickerController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D570C6F3F5458A99404E74DAFEDE3491 /* Pods-GSCountryPickerController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GSCountryPickerController_Example-dummy.m"; sourceTree = "<group>"; };
+		D969815C082AB1FC686B79EE6B693274 /* Pods-GSCountryPickerController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GSCountryPickerController_Example-resources.sh"; sourceTree = "<group>"; };
+		EB8A22A842F97E3F7DC5F41CD32964C1 /* Pods-GSCountryPickerController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GSCountryPickerController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		ED31A961823BF77A9CB38B2FE2073600 /* GSCountryPickerController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GSCountryPickerController-umbrella.h"; sourceTree = "<group>"; };
+		EDD88A738EE26E9A90E775960E1531D3 /* GSCountryTableController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GSCountryTableController.m; sourceTree = "<group>"; };
+		F26D9AB512417803A0FA40C466F4635B /* Pods-GSCountryPickerController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GSCountryPickerController_Tests-resources.sh"; sourceTree = "<group>"; };
+		F3B78EFD1930739240761F8B4067A2CA /* Pods-GSCountryPickerController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GSCountryPickerController_Tests-dummy.m"; sourceTree = "<group>"; };
+		F5F7D42AAC7613E2B76EF2DD4765296E /* Pods-GSCountryPickerController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GSCountryPickerController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FA496DB045416297F1CE86906F1D8CE9 /* Pods-GSCountryPickerController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GSCountryPickerController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FA82DED4B5208F8EA84621F943A81914 /* Pods-GSCountryPickerController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GSCountryPickerController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FA925E14047D573856B9E023B39BE415 /* GSCountryPickerController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GSCountryPickerController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCFEE9D03AAA662C89F44BE84E6FF046 /* GSCountryPickerController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = GSCountryPickerController.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0612A84F3A9CAADF5DD54D82B42592F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4977AD9C4D2FB594C03E04EB129FBD50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07FB38E149F33F7151991FF79FA6D32 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0EFED701D2C4256AA77A273025CDC84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B46F3DC0327CD3EB635EEC0A2DEEA871 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4F692F68766125D153659A3A31DE6C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14180B36FC8A279A6116A179382C3B00 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AE132D898BB976A450934918749A47C /* Pods-GSCountryPickerController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1AE56D89E57000625CCE1A5D33504AA3 /* Info.plist */,
+				52EEC98FB60EBD8BFC6CE6535841028B /* Pods-GSCountryPickerController_Tests.modulemap */,
+				5CB6396632D23BC21F5E4A9717D4C592 /* Pods-GSCountryPickerController_Tests-acknowledgements.markdown */,
+				59F50F790C88BE9549E6706F4801AC16 /* Pods-GSCountryPickerController_Tests-acknowledgements.plist */,
+				F3B78EFD1930739240761F8B4067A2CA /* Pods-GSCountryPickerController_Tests-dummy.m */,
+				C111E3263A5E516A9567B11363B59309 /* Pods-GSCountryPickerController_Tests-frameworks.sh */,
+				F26D9AB512417803A0FA40C466F4635B /* Pods-GSCountryPickerController_Tests-resources.sh */,
+				412D52F55E6B2BC0132EA2328C454780 /* Pods-GSCountryPickerController_Tests-umbrella.h */,
+				EB8A22A842F97E3F7DC5F41CD32964C1 /* Pods-GSCountryPickerController_Tests.debug.xcconfig */,
+				FA82DED4B5208F8EA84621F943A81914 /* Pods-GSCountryPickerController_Tests.release.xcconfig */,
+			);
+			name = "Pods-GSCountryPickerController_Tests";
+			path = "Target Support Files/Pods-GSCountryPickerController_Tests";
+			sourceTree = "<group>";
+		};
+		1D1AEBB68B317C9AD225797AF4F21662 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				948E1665FCE3C689C765D1DF8A072E3A /* GSCountryModel.h */,
+				BBB94428ACF64516D8D3A6BD4735B663 /* GSCountryModel.m */,
+				5059D3E63795F824E60912776452553E /* GSCountryPickerController.h */,
+				03163A76C6FD9402FA5AC4559D818280 /* GSCountryPickerController.m */,
+				98CB5B0BB2640F559E6C5A87BC905D5D /* GSCountryTableController.h */,
+				EDD88A738EE26E9A90E775960E1531D3 /* GSCountryTableController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2C1B3BF50595F44872EF70CF3D6CACE4 /* Pods-GSCountryPickerController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				5B7B272178931C5DE9CF195ADF1A52EB /* Info.plist */,
+				4A2E648E8DACA8C0FBA5732BA3ADC84E /* Pods-GSCountryPickerController_Example.modulemap */,
+				F5F7D42AAC7613E2B76EF2DD4765296E /* Pods-GSCountryPickerController_Example-acknowledgements.markdown */,
+				FA496DB045416297F1CE86906F1D8CE9 /* Pods-GSCountryPickerController_Example-acknowledgements.plist */,
+				D570C6F3F5458A99404E74DAFEDE3491 /* Pods-GSCountryPickerController_Example-dummy.m */,
+				9697D57A5FF244EF0AA79FCE4682BA58 /* Pods-GSCountryPickerController_Example-frameworks.sh */,
+				D969815C082AB1FC686B79EE6B693274 /* Pods-GSCountryPickerController_Example-resources.sh */,
+				209DA79FDB41D165FD19A2A0124FA4F2 /* Pods-GSCountryPickerController_Example-umbrella.h */,
+				1C1D3BB34FBA971B4654216818100055 /* Pods-GSCountryPickerController_Example.debug.xcconfig */,
+				5B092254FA5894127F7B25A4A42952BC /* Pods-GSCountryPickerController_Example.release.xcconfig */,
+			);
+			name = "Pods-GSCountryPickerController_Example";
+			path = "Target Support Files/Pods-GSCountryPickerController_Example";
+			sourceTree = "<group>";
+		};
+		3E1B7B36DCA033E4937D8944BCA17DF0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F9AD13C5B40B9CD4F8B2D76AB1CFAA7 /* GSCountryPickerController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6F9AD13C5B40B9CD4F8B2D76AB1CFAA7 /* GSCountryPickerController */ = {
+			isa = PBXGroup;
+			children = (
+				733DCCCDB63FBE30A68F46FDD255675C /* Pod */,
+				EE6A995DD13D29BA0FBCA730AA4A9075 /* Support Files */,
+			);
+			name = GSCountryPickerController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		733DCCCDB63FBE30A68F46FDD255675C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1D1AEBB68B317C9AD225797AF4F21662 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				3E1B7B36DCA033E4937D8944BCA17DF0 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				E103C077E1E4FDA246F85F6482EC657B /* Products */,
+				F515BA659DD4F18D1C9EBC88EDC62780 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E103C077E1E4FDA246F85F6482EC657B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA925E14047D573856B9E023B39BE415 /* GSCountryPickerController.bundle */,
+				D44677889354D9141929EDB18BFB467B /* GSCountryPickerController.framework */,
+				29C27F2918E242BE7F0EC4AC26D814FC /* Pods_GSCountryPickerController_Example.framework */,
+				7E26837A684AD2D51A5C22931C40AF8F /* Pods_GSCountryPickerController_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE6A995DD13D29BA0FBCA730AA4A9075 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCFEE9D03AAA662C89F44BE84E6FF046 /* GSCountryPickerController.modulemap */,
+				A0A57E7E7BB7817CF607F04AE7D7F1BA /* GSCountryPickerController.xcconfig */,
+				CFB372B1669CBB34CBB9A5FAD2FFB762 /* GSCountryPickerController-dummy.m */,
+				AFE3A6EA394235A5CFB4C538657ACD9D /* GSCountryPickerController-prefix.pch */,
+				ED31A961823BF77A9CB38B2FE2073600 /* GSCountryPickerController-umbrella.h */,
+				5610A8E0353E3570FC6A1F70E5475840 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GSCountryPickerController";
+			sourceTree = "<group>";
+		};
+		F515BA659DD4F18D1C9EBC88EDC62780 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C1B3BF50595F44872EF70CF3D6CACE4 /* Pods-GSCountryPickerController_Example */,
+				0AE132D898BB976A450934918749A47C /* Pods-GSCountryPickerController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		58C6BC67F27BD89FB6795B22754DFB3C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF118E3B5DBACF954AB1DB084A68228E /* GSCountryModel.h in Headers */,
+				0128F4671CB5A2AC8871B2F49AB39A70 /* GSCountryPickerController-umbrella.h in Headers */,
+				4DDBA6E24B1F5A302E84964D062D547F /* GSCountryPickerController.h in Headers */,
+				CC146CB241E4A260E883C6A0BCE228CA /* GSCountryTableController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E3ED08E1352B2062F7BB9B09EEB72F8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFCA2DCF63DE2B5AB2BA7AC18D118FBA /* Pods-GSCountryPickerController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB0EE42CC80C530806FBC6BA65FD922 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E07B436B514C46617CABD4D7316F5C1 /* Pods-GSCountryPickerController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		09978E2B7CAA5BE082A11F2E45B013D8 /* GSCountryPickerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D96BC70069907EE8FB92A5628BF61FEB /* Build configuration list for PBXNativeTarget "GSCountryPickerController" */;
+			buildPhases = (
+				F4A7B6B8214D9B87280073E28B6575E2 /* Sources */,
+				F4F692F68766125D153659A3A31DE6C8 /* Frameworks */,
+				D538FB69AE085FBB7FAE5A236FEAC36B /* Resources */,
+				58C6BC67F27BD89FB6795B22754DFB3C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E42C3770A5BEDAB1B4A3B252EB2316FC /* PBXTargetDependency */,
+			);
+			name = GSCountryPickerController;
+			productName = GSCountryPickerController;
+			productReference = D44677889354D9141929EDB18BFB467B /* GSCountryPickerController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B05E3041C487A276A1D8E2DDF2A1E427 /* GSCountryPickerController-GSCountryPickerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09EB970E58341EC31E2E5A369F3A8A2A /* Build configuration list for PBXNativeTarget "GSCountryPickerController-GSCountryPickerController" */;
+			buildPhases = (
+				F941D19D4FB29D6D9B318F40E6579C74 /* Sources */,
+				0612A84F3A9CAADF5DD54D82B42592F4 /* Frameworks */,
+				F63FBD197C16314D43F9B21BB30647CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GSCountryPickerController-GSCountryPickerController";
+			productName = "GSCountryPickerController-GSCountryPickerController";
+			productReference = FA925E14047D573856B9E023B39BE415 /* GSCountryPickerController.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		B9D102439D9B21FF609C934DA748ECB1 /* Pods-GSCountryPickerController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2E7D2B184A892E709FCECE6583BF372 /* Build configuration list for PBXNativeTarget "Pods-GSCountryPickerController_Tests" */;
+			buildPhases = (
+				454CEDD7535C862B14BAEF165724CD6D /* Sources */,
+				4977AD9C4D2FB594C03E04EB129FBD50 /* Frameworks */,
+				EEB0EE42CC80C530806FBC6BA65FD922 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B36BD2FBDF118DCAA2F6C261F695F8F1 /* PBXTargetDependency */,
+			);
+			name = "Pods-GSCountryPickerController_Tests";
+			productName = "Pods-GSCountryPickerController_Tests";
+			productReference = 7E26837A684AD2D51A5C22931C40AF8F /* Pods_GSCountryPickerController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C6E6DD57766932795A590B1C516FBBA8 /* Pods-GSCountryPickerController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF807BBAD301977C4BB088C17FE37CAE /* Build configuration list for PBXNativeTarget "Pods-GSCountryPickerController_Example" */;
+			buildPhases = (
+				8EC32E9CE72BB35A0DE91C030D7A9406 /* Sources */,
+				F0EFED701D2C4256AA77A273025CDC84 /* Frameworks */,
+				8E3ED08E1352B2062F7BB9B09EEB72F8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3F6601CDEDB8BD7A7C675792378B153 /* PBXTargetDependency */,
+			);
+			name = "Pods-GSCountryPickerController_Example";
+			productName = "Pods-GSCountryPickerController_Example";
+			productReference = 29C27F2918E242BE7F0EC4AC26D814FC /* Pods_GSCountryPickerController_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0720;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E103C077E1E4FDA246F85F6482EC657B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09978E2B7CAA5BE082A11F2E45B013D8 /* GSCountryPickerController */,
+				B05E3041C487A276A1D8E2DDF2A1E427 /* GSCountryPickerController-GSCountryPickerController */,
+				C6E6DD57766932795A590B1C516FBBA8 /* Pods-GSCountryPickerController_Example */,
+				B9D102439D9B21FF609C934DA748ECB1 /* Pods-GSCountryPickerController_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D538FB69AE085FBB7FAE5A236FEAC36B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F4ED3BD2B0F4615D97928A480ECE49A /* GSCountryPickerController.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F63FBD197C16314D43F9B21BB30647CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		454CEDD7535C862B14BAEF165724CD6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3F2D51EB5FC8796EC1D5007C33B28FF /* Pods-GSCountryPickerController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EC32E9CE72BB35A0DE91C030D7A9406 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E221DD6C7B08D3F306C32FE31B6F77CD /* Pods-GSCountryPickerController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4A7B6B8214D9B87280073E28B6575E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88AEFDE8A78F61D6646EF9D276463B17 /* GSCountryModel.m in Sources */,
+				2C0B0D1A5F4DE9CF54180DFC4E3D9606 /* GSCountryPickerController-dummy.m in Sources */,
+				3072E0ACF5EABB1F443A417BD30E390C /* GSCountryPickerController.m in Sources */,
+				E4ABEA18D76F93CF1CE726754FC78EA9 /* GSCountryTableController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F941D19D4FB29D6D9B318F40E6579C74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B36BD2FBDF118DCAA2F6C261F695F8F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GSCountryPickerController;
+			target = 09978E2B7CAA5BE082A11F2E45B013D8 /* GSCountryPickerController */;
+			targetProxy = 88DE5F4AEFEEF9A9E7B51F49C1A1685D /* PBXContainerItemProxy */;
+		};
+		B3F6601CDEDB8BD7A7C675792378B153 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GSCountryPickerController;
+			target = 09978E2B7CAA5BE082A11F2E45B013D8 /* GSCountryPickerController */;
+			targetProxy = CA5413CB12D389F64884F937A0D276A1 /* PBXContainerItemProxy */;
+		};
+		E42C3770A5BEDAB1B4A3B252EB2316FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "GSCountryPickerController-GSCountryPickerController";
+			target = B05E3041C487A276A1D8E2DDF2A1E427 /* GSCountryPickerController-GSCountryPickerController */;
+			targetProxy = E656E0164EDA3FCB604FEA45645A10D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		31E3E84DDD85161A99819F492038CE63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB8A22A842F97E3F7DC5F41CD32964C1 /* Pods-GSCountryPickerController_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GSCountryPickerController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GSCountryPickerController_Tests/Pods-GSCountryPickerController_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GSCountryPickerController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		417E031E816F756EFB83101B68B2C5C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0A57E7E7BB7817CF607F04AE7D7F1BA /* GSCountryPickerController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GSCountryPickerController/GSCountryPickerController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GSCountryPickerController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GSCountryPickerController/GSCountryPickerController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = GSCountryPickerController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6046C204A0EC0E1056B152ABD68B99D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0A57E7E7BB7817CF607F04AE7D7F1BA /* GSCountryPickerController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GSCountryPickerController/GSCountryPickerController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GSCountryPickerController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GSCountryPickerController/GSCountryPickerController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = GSCountryPickerController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		98A114839D33AA2D8A9AA8B5EC25FD5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0A57E7E7BB7817CF607F04AE7D7F1BA /* GSCountryPickerController.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = GSCountryPickerController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		9B12C85259E9259B8E866FD1407270D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0A57E7E7BB7817CF607F04AE7D7F1BA /* GSCountryPickerController.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = GSCountryPickerController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		CC5E8555DD5E7C1AA3D92706DF714C4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B092254FA5894127F7B25A4A42952BC /* Pods-GSCountryPickerController_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GSCountryPickerController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GSCountryPickerController_Example/Pods-GSCountryPickerController_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GSCountryPickerController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CC74DD3814DB83E1D3E6938F067B56E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA82DED4B5208F8EA84621F943A81914 /* Pods-GSCountryPickerController_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GSCountryPickerController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GSCountryPickerController_Tests/Pods-GSCountryPickerController_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GSCountryPickerController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FE2B2DA1A39024E48143DD6CAA5411A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C1D3BB34FBA971B4654216818100055 /* Pods-GSCountryPickerController_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GSCountryPickerController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GSCountryPickerController_Example/Pods-GSCountryPickerController_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GSCountryPickerController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09EB970E58341EC31E2E5A369F3A8A2A /* Build configuration list for PBXNativeTarget "GSCountryPickerController-GSCountryPickerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98A114839D33AA2D8A9AA8B5EC25FD5D /* Debug */,
+				9B12C85259E9259B8E866FD1407270D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2E7D2B184A892E709FCECE6583BF372 /* Build configuration list for PBXNativeTarget "Pods-GSCountryPickerController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31E3E84DDD85161A99819F492038CE63 /* Debug */,
+				CC74DD3814DB83E1D3E6938F067B56E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D96BC70069907EE8FB92A5628BF61FEB /* Build configuration list for PBXNativeTarget "GSCountryPickerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				417E031E816F756EFB83101B68B2C5C2 /* Debug */,
+				6046C204A0EC0E1056B152ABD68B99D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF807BBAD301977C4BB088C17FE37CAE /* Build configuration list for PBXNativeTarget "Pods-GSCountryPickerController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE2B2DA1A39024E48143DD6CAA5411A4 /* Debug */,
+				CC5E8555DD5E7C1AA3D92706DF714C4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

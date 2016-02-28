@@ -1,0 +1,6 @@
+framework module Pods_GSCountryPickerController_Example {
+  umbrella header "Pods-GSCountryPickerController_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

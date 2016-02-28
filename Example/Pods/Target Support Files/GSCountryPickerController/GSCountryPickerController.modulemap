@@ -1,0 +1,6 @@
+framework module GSCountryPickerController {
+  umbrella header "GSCountryPickerController-umbrella.h"
+
+  export *
+  module * { export * }
+}

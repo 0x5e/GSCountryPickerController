@@ -1,0 +1,14 @@
+PODS:
+  - GSCountryPickerController (0.1.0)
+
+DEPENDENCIES:
+  - GSCountryPickerController (from `../`)
+
+EXTERNAL SOURCES:
+  GSCountryPickerController:
+    :path: ../
+
+SPEC CHECKSUMS:
+  GSCountryPickerController: d613558acfe00774036c8c390c6bc93fc8b2055f
+
+COCOAPODS: 0.39.0

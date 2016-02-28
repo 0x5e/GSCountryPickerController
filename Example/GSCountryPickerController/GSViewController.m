@@ -7,23 +7,42 @@
 //
 
 #import "GSViewController.h"
+#import "GSCountryPickerController.h"
 
-@interface GSViewController ()
+@interface GSViewController () <GSCountryPickerControllerDelegate>
 
 @end
 
 @implementation GSViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    UIButton *button = [[UIButton alloc] initWithFrame:self.view.bounds];
+    [button setTitle:@"Tap to Select Country" forState:UIControlStateNormal];
+    [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(selectCountryAction) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)selectCountryAction {
+    GSCountryPickerController *vc = [GSCountryPickerController new];
+    vc.countryPickerdelegate = self;
+    [self presentViewController:vc animated:YES completion:nil];
+}
+
+#pragma mark - GSCountryPickerControllerDelegate
+
+- (void)countryPickerController:(GSCountryPickerController *)picker
+           didSelectCountryCode:(NSString *)countryCode
+                  localizedName:(NSString *)localizedName {
+    NSString *msg = [NSString stringWithFormat:@"%@, %@", localizedName, countryCode];
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"You Select" message:msg delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+    [alertView show];
+}
+
+- (void)countryPickerControllerDidCancel:(GSCountryPickerController *)picker {
+    
 }
 
 @end
