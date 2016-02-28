@@ -37,7 +37,7 @@
            didSelectCountryCode:(NSString *)countryCode
                   localizedName:(NSString *)localizedName {
     NSString *msg = [NSString stringWithFormat:@"%@, %@", localizedName, countryCode];
-    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"You Select" message:msg delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:nil message:msg delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
     [alertView show];
 }
 

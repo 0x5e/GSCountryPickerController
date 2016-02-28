@@ -12,6 +12,7 @@
 
 #define reuseIdentifier @"reuseIdentifier"
 
+//#define UIKitLocalizedString(key) [[NSBundle bundleWithIdentifier:@"com.apple.UIKit"] localizedStringForKey:key value:@"" table:nil]
 static NSString * UIKitLocalizedString(NSString *string) {
     NSBundle *UIKitBundle = [NSBundle bundleForClass:[UIApplication class]];
     return UIKitBundle ? [UIKitBundle localizedStringForKey:string value:string table:nil] : string;
