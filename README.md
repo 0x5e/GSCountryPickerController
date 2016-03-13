@@ -5,11 +5,11 @@
 [![License](https://img.shields.io/cocoapods/l/GSCountryPickerController.svg?style=flat)](http://cocoapods.org/pods/GSCountryPickerController)
 [![Platform](https://img.shields.io/cocoapods/p/GSCountryPickerController.svg?style=flat)](http://cocoapods.org/pods/GSCountryPickerController)
 
+A simple country picker for iOS with system language localized, and don't need any additional resource bundles.
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
 
 ## Installation
 
@@ -18,6 +18,44 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod "GSCountryPickerController"
+```
+
+## How to use
+
+- First, import header and add protocol to your ViewController
+
+```
+#import "GSCountryPickerController.h"
+
+@interface MyViewController () <GSCountryPickerControllerDelegate>
+	// ...
+@end
+```
+
+2. Then, implement the protocol
+
+```
+#pragma mark - GSCountryPickerControllerDelegate
+
+- (void)countryPickerController:(GSCountryPickerController *)picker
+           didSelectCountryCode:(NSString *)countryCode
+                  localizedName:(NSString *)localizedName {
+	// ...
+}
+
+- (void)countryPickerControllerDidCancel:(GSCountryPickerController *)picker {
+   	// ... 
+}
+```
+
+- Instantiate the controller
+
+```
+- (void)selectCountryAction {
+    GSCountryPickerController *vc = [GSCountryPickerController new];
+    vc.countryPickerdelegate = self;
+    [self presentViewController:vc animated:YES completion:nil];
+}
 ```
 
 ## Author
