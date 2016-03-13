@@ -24,6 +24,7 @@ static NSString * UIKitLocalizedString(NSString *string) {
 @property (nonatomic, weak) id <GSCountryPickerControllerDelegate> countryPickerdelegate;
 @property (nonatomic, strong) UISearchBar *searchBar;
 @property (nonatomic, strong) NSArray<NSArray<GSCountryModel *> *> *sections;
+@property (nonatomic, strong) NSArray<GSCountryModel *> *searchResult;
 
 @end
 
@@ -37,7 +38,7 @@ static NSString * UIKitLocalizedString(NSString *string) {
 }
 
 - (void)initView {
-    self.navigationItem.title = UIKitLocalizedString(@"Region");
+    self.navigationItem.title = UIKitLocalizedString(@"Select");
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCancel target:self action:@selector(cancelAction)];
     
     self.tableView.tableHeaderView = self.searchBar;
@@ -87,6 +88,7 @@ static NSString * UIKitLocalizedString(NSString *string) {
 #pragma mark - action
 
 - (void)cancelAction {
+    [self.view endEditing:YES];
     if ([self.countryPickerdelegate respondsToSelector:@selector(countryPickerControllerDidCancel:)]) {
         [self.countryPickerdelegate countryPickerControllerDidCancel:self.navigationController];
     }
@@ -94,6 +96,7 @@ static NSString * UIKitLocalizedString(NSString *string) {
 }
 
 - (void)selectAction:(GSCountryModel *)model {
+    [self.view endEditing:YES];
     if ([self.countryPickerdelegate respondsToSelector:@selector(countryPickerController:didSelectCountryCode:localizedName:)]) {
         [self.countryPickerdelegate countryPickerController:self.navigationController didSelectCountryCode:model.countryCode localizedName:model.localizedName];
     }
@@ -165,5 +168,7 @@ static NSString * UIKitLocalizedString(NSString *string) {
 }
 
 #pragma mark - UISearchBarDelegate
+
+// TODO:
 
 @end
