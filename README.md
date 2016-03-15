@@ -5,7 +5,20 @@
 [![License](https://img.shields.io/cocoapods/l/GSCountryPickerController.svg?style=flat)](http://cocoapods.org/pods/GSCountryPickerController)
 [![Platform](https://img.shields.io/cocoapods/p/GSCountryPickerController.svg?style=flat)](http://cocoapods.org/pods/GSCountryPickerController)
 
-A simple country picker for iOS with system language localized, and don't need any additional resource bundles.
+A simple country picker for iOS with full language support.
+
+## Screenshoots
+
+![screenshots_1](https://github.com/0x5e/GSCountryPickerController/raw/master/Resource/screenshots_1.png)
+![screenshots_2](https://github.com/0x5e/GSCountryPickerController/raw/master/Resource/screenshots_2.png)
+![screenshots_3](https://github.com/0x5e/GSCountryPickerController/raw/master/Resource/screenshots_3.png)
+
+## Features
+
+- Full language support
+- No additional resource bundles (use system language files actually)
+- Looks like system country picker (Setting -> Preference -> Language & Locale -> Region)
+- Easy to use
 
 ## Usage
 
@@ -32,7 +45,7 @@ pod "GSCountryPickerController"
 @end
 ```
 
-2. Then, implement the protocol
+- Then, implement the protocol
 
 ```
 #pragma mark - GSCountryPickerControllerDelegate
@@ -48,7 +61,7 @@ pod "GSCountryPickerController"
 }
 ```
 
-- Instantiate the controller
+- Instantiate the controller when you want to
 
 ```
 - (void)selectCountryAction {
@@ -57,6 +70,11 @@ pod "GSCountryPickerController"
     [self presentViewController:vc animated:YES completion:nil];
 }
 ```
+
+## Todo
+
+- Support runtime language switch (without App restart)
+- Search result
 
 ## Author
 

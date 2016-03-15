@@ -39,6 +39,21 @@
     NSString *msg = [NSString stringWithFormat:@"%@, %@", localizedName, countryCode];
     UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:nil message:msg delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
     [alertView show];
+    
+    // Some examples
+    // ISO Country Code => ISO 639-1 Language Code
+    // Languages will be changed after App restart
+    NSDictionary *dict = @{@"GB": @"en-GB", @"US": @"en-US", @"CN": @"zh-Hans-CN", @"HK": @"zh-Hant-HK", @"TW": @"zh-Hant-TW"};
+    NSString *localId = [dict objectForKey:countryCode];
+    
+    NSMutableArray *preferredLanguages = [[NSLocale preferredLanguages] mutableCopy];
+    if (localId) {
+        [preferredLanguages removeObject:localId];
+        [preferredLanguages insertObject:localId atIndex:0];
+    }
+    [[NSUserDefaults standardUserDefaults] setObject:preferredLanguages forKey:@"AppleLanguages"];
+    [[NSUserDefaults standardUserDefaults] synchronize];
+    
 }
 
 - (void)countryPickerControllerDidCancel:(GSCountryPickerController *)picker {

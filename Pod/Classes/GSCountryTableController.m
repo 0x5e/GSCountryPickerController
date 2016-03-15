@@ -12,7 +12,6 @@
 
 #define reuseIdentifier @"reuseIdentifier"
 
-//#define UIKitLocalizedString(key) [[NSBundle bundleWithIdentifier:@"com.apple.UIKit"] localizedStringForKey:key value:@"" table:nil]
 static NSString * UIKitLocalizedString(NSString *string) {
     NSBundle *UIKitBundle = [NSBundle bundleForClass:[UIApplication class]];
     return UIKitBundle ? [UIKitBundle localizedStringForKey:string value:string table:nil] : string;
@@ -48,7 +47,11 @@ static NSString * UIKitLocalizedString(NSString *string) {
 - (void)initData {
     NSArray *codeArray = [NSLocale ISOCountryCodes];
     NSMutableArray *modelArray = [NSMutableArray array];
-    NSLocale *locale = [NSLocale currentLocale];
+//    NSLocale *locale = [NSLocale currentLocale];
+    NSLocale *locale = [NSLocale autoupdatingCurrentLocale];
+//    NSString *preferredLanguages = [[NSLocale preferredLanguages] firstObject];
+//    NSLocale *locale = [NSLocale localeWithLocaleIdentifier:preferredLanguages];
+    
     for (NSString *countryCode in codeArray) {
         NSString *localizedName = [locale displayNameForKey:NSLocaleCountryCode value:countryCode];
         GSCountryModel *model = [GSCountryModel new];

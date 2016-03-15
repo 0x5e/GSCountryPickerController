@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = "GSCountryPickerController"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of GSCountryPickerController."
+  s.version          = "1.0.0"
+  s.summary          = "A simple country picker for iOS with full language support."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = "https://github.com/<GITHUB_USERNAME>/GSCountryPickerController"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.screenshots      = "https://github.com/0x5e/GSCountryPickerController/raw/master/Resource/screenshots_1.png", "https://github.com/0x5e/GSCountryPickerController/raw/master/Resource/screenshots_2.png", "https://github.com/0x5e/GSCountryPickerController/raw/master/Resource/screenshots_3.png"
   s.license          = 'MIT'
   s.author           = { "gaosen" => "0x5e@sina.cn" }
   s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/GSCountryPickerController.git", :tag => s.version.to_s }
