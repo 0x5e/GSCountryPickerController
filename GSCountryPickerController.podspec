@@ -16,8 +16,9 @@ Pod::Spec.new do |s|
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
-#  s.description      = <<-DESC
-#                       DESC
+  s.description      = <<-DESC
+                       GSCountryPickerController provides user to select country from a UITableViewController. It looks like system country picker (Setting -> Preference -> Language & Locale -> Region). Full language support and without any additonal resource bundles.
+                       DESC
 
   s.homepage         = "https://github.com/0x5e/GSCountryPickerController"
   s.screenshots      = "https://github.com/0x5e/GSCountryPickerController/raw/master/Resource/screenshots_1.png", "https://github.com/0x5e/GSCountryPickerController/raw/master/Resource/screenshots_2.png", "https://github.com/0x5e/GSCountryPickerController/raw/master/Resource/screenshots_3.png"
