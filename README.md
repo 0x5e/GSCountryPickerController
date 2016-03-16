@@ -1,6 +1,6 @@
 # GSCountryPickerController
 
-[![CI Status](http://img.shields.io/travis/gaosen/GSCountryPickerController.svg?style=flat)](https://travis-ci.org/gaosen/GSCountryPickerController)
+[![CI Status](http://img.shields.io/travis/0x5e/GSCountryPickerController.svg?style=flat)](https://travis-ci.org/0x5e/GSCountryPickerController)
 [![Version](https://img.shields.io/cocoapods/v/GSCountryPickerController.svg?style=flat)](http://cocoapods.org/pods/GSCountryPickerController)
 [![License](https://img.shields.io/cocoapods/l/GSCountryPickerController.svg?style=flat)](http://cocoapods.org/pods/GSCountryPickerController)
 [![Platform](https://img.shields.io/cocoapods/p/GSCountryPickerController.svg?style=flat)](http://cocoapods.org/pods/GSCountryPickerController)
